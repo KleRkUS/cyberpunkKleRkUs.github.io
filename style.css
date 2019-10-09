@@ -88,17 +88,6 @@ p>i {
 }
 
 
-@media screen and (max-width: 752px) {
-	body {
-		font-size: 24px;
-	}
-
-	h1>i, h2>i {
-		padding-top: .15em;
-	}
-}
-
-
 @font-face {
 	font-family: "Seldom Scene";
 	src: url(fonts/ResearchRemixNormal.otf);
