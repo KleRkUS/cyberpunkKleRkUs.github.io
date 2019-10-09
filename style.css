@@ -45,7 +45,7 @@ h1, h2 {
 p {
 	font-size: 1em;
 	white-space: pre-line;
-	font-family: "Jura", sans-serif;
+	font-family: "Manrope", sans-serif;
 	line-height: 1.6em;
 }
 
@@ -128,4 +128,9 @@ p>i {
 @font-face {
 	font-family: "Research Remix";
 	src: url(fonts/ResearchRemixNormal.otf);
+}
+
+@font-face {
+	font-family: "Manrope";
+	src: url(fonts/light.otf);
 }
