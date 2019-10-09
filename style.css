@@ -93,6 +93,10 @@ p>i {
 		font-size: 10px;
 	}
 
+	h1>i, h2>i {
+		padding-top: .13em;
+	}
+
 	p {
 		font-size: 1.3em;
 	}
