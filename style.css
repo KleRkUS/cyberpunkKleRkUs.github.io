@@ -1,0 +1,93 @@
+/* 
+
+ cyberpunk color pallete:
+ 
+ #091833 - text color   (9,24,51)
+ #ea00d9 - light pink   (234,0,217)
+ #711c91 - dark pink    (113,28,145)
+
+ */
+
+
+
+body {
+	margin: 0;
+	color: #0e0e0e;
+	font-size: 20px;
+}
+
+article {
+	margin: 0 20%;
+}
+
+h1, h2 {
+	font-family: "Seldom Scene";
+	color: #091833;
+	letter-spacing: .1em;
+	font-size: 2em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;	
+}
+
+p {
+	font-size: 1em;
+	white-space: pre-line;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.6em;
+}
+
+blockquote {
+	font-family: "PT Mono", monospace;
+	border-left: .3em solid #0abdc6;
+	padding-left: 1em; 
+	line-height: 1.5em;
+	margin: 2em 0;
+}
+
+h1>i, h2>i {
+	color: #fff;
+	font-style: normal;
+	background: linear-gradient(to top right, #ea00d9, #711c91);
+	padding-top: 0;
+	padding-right: 0em;
+	padding-bottom: .3em;
+}
+
+h1>i::before, h2>i::before {
+	content: '';
+	display: inline-block;	
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: relative;	
+	bottom: .6em;
+	border-width: .6em .6em 0 0;
+	border-color: #fff transparent transparent transparent;
+}
+
+h1>i::after, h2>i::after {
+	content: '';
+	display: inline-block;	
+	width: 0;
+	height: 0;
+	border-style: solid;
+	position: relative;	
+	top: .6em;
+	border-width: 0 0 .6em .6em;
+	border-color: transparent transparent #fff transparent;
+}
+
+p>i {
+	text-decoration-line: overline;
+	text-decoration-color: #133e7c;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Seldom Scene";
+	src: url(fonts/ResearchRemixNormal.otf);
+}
