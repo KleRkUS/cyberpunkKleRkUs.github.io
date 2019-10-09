@@ -90,7 +90,11 @@ p>i {
 
 @media screen and (max-width: 752px) {
 	body {
-		font-size: 16px;
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 1.3em;
 	}
 }
 
