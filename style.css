@@ -17,14 +17,24 @@ body {
 }
 
 article {
-	margin: 0 20%;
+	padding: 0 15%;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 	2em;
 }
 
 h1, h2 {
-	font-family: "Seldom Scene";
+	text-align: center;	
+	font-family: "Research Remix";
 	color: #091833;
-	letter-spacing: .1em;
-	font-size: 2em;
+	letter-spacing: .07em;
+	line-height: 1.5em;	
+	margin-bottom: 	2em;
 	margin-top: 2em;
 	margin-bottom: 1em;
 	-webkit-box-sizing: border-box;
@@ -35,7 +45,7 @@ h1, h2 {
 p {
 	font-size: 1em;
 	white-space: pre-line;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Jura", sans-serif;
 	line-height: 1.6em;
 }
 
@@ -45,6 +55,11 @@ blockquote {
 	padding-left: 1em; 
 	line-height: 1.5em;
 	margin: 2em 0;
+}
+
+p, blockquote {
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 h1>i, h2>i {
@@ -81,12 +96,10 @@ h1>i::after, h2>i::after {
 }
 
 p>i {
-	text-decoration-line: overline;
-	text-decoration-color: #133e7c;
+	color: 	#ea00d9;
 	font-style: normal;
 	font-weight: 700;
 }
-
 
 @media screen and (max-width: 752px) {
 	body {
@@ -104,6 +117,6 @@ p>i {
 
 
 @font-face {
-	font-family: "Seldom Scene";
+	font-family: "Research Remix";
 	src: url(fonts/ResearchRemixNormal.otf);
 }
