@@ -110,6 +110,10 @@ p>i {
 		padding-top: .13em;
 	}
 
+	article {
+		padding: 0 10%;
+	}
+
 	p {
 		font-size: 1.3em;
 	}
